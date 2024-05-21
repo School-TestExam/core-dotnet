@@ -10,5 +10,5 @@ concurrency:
     cancel-in-progress: true
 jobs:
     build:
-        uses: FamilySync/core-pipelines/.github/workflows/nuget-publish.yaml@main
+        uses: School-TestExam/core-pipelines/.github/workflows/nuget-publish.yaml@main
         secrets: inherit
