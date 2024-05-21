@@ -4,6 +4,11 @@
         <TargetFramework>net8.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>School-TestExam.Core.Abstractions</Title>
+        <Authors>Nichlas Hoberg</Authors>
+        <Description>This package adds support for all persistent logic.</Description>
+        <PackageProjectUrl>https://github.com/School-TestExam/core-dotnet</PackageProjectUrl>
     </PropertyGroup>
 
     <ItemGroup>
