@@ -9,6 +9,7 @@
         <Authors>Nichals Hoberg</Authors>
         <Description>This package is meant as a helper for all core packages and their services </Description>
         <PackageProjectUrl>https://github.com/School-TestExam/core-dotnet</PackageProjectUrl>
+        <RootNamespace>Exam.Abstractions</RootNamespace>
     </PropertyGroup>
     <ItemGroup>
         <PackageReference Include="FastExpressionCompiler" Version="4.1.0" />

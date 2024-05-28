@@ -1,4 +1,5 @@
 ﻿using Exam.Abstractions.Settings;
+using Exam.Core.Filters;
 using Exam.Core.Settings;
 using FastExpressionCompiler;
 using Mapster;
@@ -41,7 +42,11 @@ public static class IServiceCollectionExtensions
 
         if (settings.Include.Mvc)
         {
-            var mvcBuilder = services.AddControllers(options => {options.AllowEmptyInputInBodyModelBinding = true;});
+            var mvcBuilder = services.AddControllers(options =>
+                {
+                    options.AllowEmptyInputInBodyModelBinding = true;
+                    options.Filters.Add<ExceptionFilter>();
+                });
             
             // Obtain all assemblies and add them to mvc so it can discover what it needs .. like controllers
             foreach (var assembly in AppDomain.CurrentDomain.GetAssemblies())

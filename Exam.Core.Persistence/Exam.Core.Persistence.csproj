@@ -19,4 +19,8 @@
         <PackageReference Include="Pomelo.EntityFrameworkCore.MySql.Json.Microsoft" Version="8.0.2" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\services-identity\Exam.Models\Exam.Models.Identity.csproj" />
+    </ItemGroup>
+
 </Project>
