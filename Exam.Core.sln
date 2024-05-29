@@ -10,7 +10,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam.Core", "Exam.Core\Exam
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam.Core.Example", "Exam.Core.Example\Exam.Core.Example.csproj", "{CC2666A3-3E89-45D7-B9C0-21A6F23FB6C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam.Abstractions", "Exam.Abstractions\Exam.Abstractions.csproj", "{47194CAD-639D-4803-9B14-6BBADD37F0A4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam.Core.Abstractions", "Exam.Core.Abstractions\Exam.Core.Abstractions.csproj", "{47194CAD-639D-4803-9B14-6BBADD37F0A4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exam.Core.Persistence", "Exam.Core.Persistence\Exam.Core.Persistence.csproj", "{A8AA4F97-482C-40D4-A5FA-DF4B43050399}"
 EndProject
